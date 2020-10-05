@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E00707FD24443CDC00146362 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		E043668A242D2CAF0078AE5D /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		E0631300242C679500812792 /* Powerlifting Attempt Selectoin Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Powerlifting Attempt Selectoin Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0631303242C679500812792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,11 +40,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E00707FC24443CDC00146362 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E00707FD24443CDC00146362 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E06312F7242C679500812792 = {
 			isa = PBXGroup;
 			children = (
 				E0631302242C679500812792 /* Powerlifting Attempt Selectoin Calculator */,
 				E0631301242C679500812792 /* Products */,
+				E00707FC24443CDC00146362 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
